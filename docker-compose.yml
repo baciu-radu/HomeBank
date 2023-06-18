@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql
+    container_name: homebank
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_USER: radu_baciu
+      MYSQL_PASSWORD: admin
+      MYSQL_DATABASE: homebank

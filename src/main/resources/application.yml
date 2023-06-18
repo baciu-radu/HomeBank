@@ -1,3 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+  error:
+    whitelabel:
+      enabled: false
+    path: /error
+
 spring.jpa.hibernate.ddl-auto: update
 spring.datasource.url: jdbc:mysql://localhost:3306/homebank
 spring.datasource.username: root

@@ -1,9 +1,0 @@
-com\ing\hubs\services\UserService.class
-com\ing\hubs\models\User.class
-com\ing\hubs\services\AccountService.class
-com\ing\hubs\security\JwtService.class
-com\ing\hubs\HomeBankApplication.class
-com\ing\hubs\models\Account.class
-com\ing\hubs\repositories\AccountRepository.class
-com\ing\hubs\controllers\UserController.class
-com\ing\hubs\repositories\UserRepository.class

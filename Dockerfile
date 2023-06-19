@@ -1,4 +1,4 @@
 FROM openjdk:20
-ADD target/homework-3.1.0.jar homework-3.1.0.jar
-ENTRYPOINT ["java", "-jar","homework-3.1.0.jar"]
+ADD target/homebank-app.jar homebank-app.jar
+ENTRYPOINT ["java", "-jar","homebank-app.jar"]
 EXPOSE 8080

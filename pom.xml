@@ -90,5 +90,6 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>homebank-app</finalName>
     </build>
 </project>

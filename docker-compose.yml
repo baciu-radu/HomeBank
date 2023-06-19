@@ -1,4 +1,10 @@
 services:
+  application:
+    image: 'homebank-app'
+    container_name: app-homebank
+    ports:
+      - "8080:8080"
+
   db:
     image: mysql
     container_name: homebank
